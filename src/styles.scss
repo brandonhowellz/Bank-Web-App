@@ -1,0 +1,10 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+// Define custom variables
+$navbar-light-hover-color: rgb(111, 122, 148);
+
+// Override Bootstrap styles
+.navbar-light .navbar-nav .nav-link:hover {
+  background-color: $navbar-light-hover-color;
+}
