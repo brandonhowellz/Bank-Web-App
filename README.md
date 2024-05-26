@@ -28,3 +28,11 @@ Make sure you have the following software installed:
    ```bash
    git clone https://github.com/yourusername/myproject.git
    cd myproject
+## Change Log
+v1.1.0
+Added Firebase Authentication: Integrated Firebase Authentication for user login and sign-up.
+Protected Routes: Secured API routes using Firebase ID tokens.
+Improved Error Handling: Enhanced error handling across the application for better debugging and user experience.
+v1.0.0
+Initial Release: Basic setup of Express.js server, MongoDB connection, and React front end.
+CRUD Operations: Implemented basic CRUD operations for user accounts and transactions.
